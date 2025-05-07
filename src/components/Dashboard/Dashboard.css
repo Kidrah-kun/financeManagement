@@ -48,11 +48,17 @@
 }
 
 .dashboard-main {
-  flex: 1;
-  padding: 42px 52px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+  padding: 2.7rem;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  margin-left: 385px;
+}
+
+@media (max-width: 1024px) {
+  .dashboard-main {
+    margin-left: 0;
+    padding: 1.35rem;
+  }
 }
 
 .dashboard-header h1 {
